@@ -1,0 +1,52 @@
+.App{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightskyblue;
+    min-height: 10vh;
+}
+
+nav > h3{
+    margin-left: 10px;
+}
+
+.nav-links{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    list-style: none;
+}
+
+.cat{
+    font-size: 15px;
+}
+
+.lista{
+    display: table;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.sortBtn{
+    border:none;
+    cursor:pointer;
+    background: none;
+    font-weight: bold;
+    color:blue;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+    width:auto;
+    margin:auto;
+}
+
+.test{
+    width:200px;
+}
